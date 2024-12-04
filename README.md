@@ -28,4 +28,5 @@ Przy kolejnym uruchomieniu bot zaktualizuje ceny hotelu, które będzie można p
 
 Pobrane dane nadają się do dalszych analiz.
 
-
+Jeśli chcesz rozwijać narzędzie, proszę bardzo. 
+Stworzyłem je na własny użytek i udostępniam za darmo.

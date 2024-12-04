@@ -6,6 +6,9 @@
 # Python Version:   3.13
 #--------------------------------
 ### Przed użyciem przeczytaj instrukcję w README.md
+# Bot przegląda wskazaną stronę wyszukiwania hoteli na portalu Wakacje.pl
+# Zapisuje nazwy hoteli wraz z ich aktualnie najniższymi cenami do pliku excel
+# uruchomiony ponownie aktualizuje ceny, a plik wynikowy umożliwia śledzenie zmian cen
 # ------------------------------------------------------------
 
 # Weryfikacja niezbędnych bibliotek w systemie

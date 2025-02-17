@@ -32,6 +32,7 @@ NOWOŚĆ W WERSJI 2.0
 Po stworzeniu bazy nazw hoteli oraz ich aktualnych cen w portalu Wakacje.pl, bot przystępuje do dalszego, niezależnego działania.
 Wyszukuje nazwy hoteli ze stworzonej bazy, w celu zapisaniach ich średniej oceny w Google. 
 Działa dobrze dla większości hoteli o unikalnej nazwie, które wyświetlają się poprawnie w Google jako obiekty tego typu.
+UWAGA! Wchodzi testowo na Google i daje 60 sekund na ręczne rozwiązanie ewentualnej blokady captcha!
 
 Jeśli chcesz rozwijać narzędzie, proszę bardzo. 
 Stworzyłem je na własny użytek i udostępniam za darmo.

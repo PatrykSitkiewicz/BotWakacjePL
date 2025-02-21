@@ -1,5 +1,6 @@
 # BotWakacjePL
-Bot przeglądający Wakacje.pl i zapisujący nazwy Hoteli oraz Ceny do pliku Excel
+Bot przeglądający Wakacje.pl i zapisujący nazwy Hoteli oraz Ceny do pliku Excel.
+W wersji 2.0 sprawdza i zapisuje także oceny tych hoteli w Google, by móc szybko znaleźć najtańsze dobre hotele.
 
 Instrukcja krok po kroku:
 

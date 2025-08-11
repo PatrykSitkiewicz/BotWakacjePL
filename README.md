@@ -1,39 +1,33 @@
 # BotWakacjePL
 Bot przeglądający Wakacje.pl i zapisujący nazwy Hoteli oraz Ceny do pliku Excel.
-W wersji 2.0 sprawdza i zapisuje także oceny tych hoteli w Google, by móc szybko znaleźć najtańsze dobre hotele.
+Następnie sprawdza oceny zapisanych hoteli w Google.
+Na koniec tworzy ranking hotelu na podstawie punktów przyznanych za cenę oraz ocenę.
 
 Instrukcja krok po kroku:
 
 ZANIM ZACZNIESZ:
 1. Jeśli nie posiadasz przeglądarki Google Chrome, pobierz i zanstaluj ją: https://www.google.com/intl/pl_pl/chrome/
-2. Pobierz i zainstaluj ChromeDrive https://googlechromelabs.github.io/chrome-for-testing/
-4. Pobierz i zainstaluj Python: https://www.python.org/downloads/
-5. Pobierz i zainstaluj edytor kodu w języku Python, IDE np. PyCharm Community Edition: https://www.jetbrains.com/pycharm/download/?section=windows
-6. Pobierz plik BotWakacjePL.py z niniejszego repozytorium
+2. Pobierz i zainstaluj ChromeDrive dokładnie tej samej wersji, co Twoja Google Chrome https://googlechromelabs.github.io/chrome-for-testing/
+4. Pobierz z nieniejszego repozytorium BotWakacjePL.exe i uruchom go na swoim Windowsie. 
+5. Postępuj zgodnie z instrukcją w programie. 
 
 USTAWIAMY BOTA
-1. Otwórz plik BotWakacjePL.py by dostosować parametry kodu do Twojego działania (np. przy użyciu PyCharm Community Edition)
-2. Jeżeli zainstalowany ChromeDrive znajduje się w innej lokalizacji niż C:\chromedriver-win64\chromedriver.exe, należy w kodzie zmienić ścieżkę prowadzącą do niego.
-3. Wchodzimy na stronę Wakacje.pl i wybieramy skąd, dokąd chcemy lecieć, w jakim terminie, w ile osób. Możemy wybrać też inne opcje, np. All Inclusive. Dajemy szukaj.
-4. Uzyskaną stronę z wynikami możemy filtrować oraz sortować (np. wg ceny).
-5. Zjeżdżamy na dół strony i przechodzimy do drugiej strony wyników.
-6. Kopiujemy z przeglądarki link do swoich wyników wyszukiwania.
-7. Wklejamy go we wskazane miejsce pliku BotWakacjePL.py, podmieniając widniejący tam domyślnie link.
-8. Zamieniamy nr strony będący w linku na {X}, np. fragment linku "wczasy/turcja/?str-2" powinniśmy zamienić na "wczasy/turcja/?str-{X}", jak w linku domyślnym.
-9. Ustalamy, ile stron wyników ma przeglądać bot. Domyślnie jest 5. Możemy to zmienić.
-
-URUCHAMIAMY BOTA
-Uruchamiamy bota, wykonując kod BotWakacjePL.py, np. klikając zieloną ikonkę play w programie PyCharm. 
-Bot przejrzy za nas strony z wynikami, pobierze nazwy hoteli, sprawdzi ich najniższe ceny i zapisze w pliku Excel, domyślnie hotels_data.xlsx.
-Przy kolejnym uruchomieniu bot zaktualizuje ceny hotelu, które będzie można porównać z cenami wcześniejszymi.
+1. Utwórz wyszukiwanie na stronie Wakacje.pl. Ustaw skąd, dokąd, kiedy chcesz pojechać. Wyszukaj i przefiltruj hotele (panele wyników po lewej). Następnie przejdź do drugiej strony wyników i skopiuj pełny link z Twojej przeglądarki.
+2. Wklej go do formularza programu BotWakacjePL.exe.
+3. Wybierz, ile stron wyników chcesz przeanalizować.
+4. Podaj lokalizację pobranej przeglądarki ChromeDriver.exe.
+5. Podaj ścieżkę do folderu, gdzie mają się zapisać wyniki analiz.
+6. Naciśnij "Start".
+7. Śledź postępy automatycznego przeglądania internetu przez bota. W razie potrzeby, rozwiąż CAPCHA na stronie Google.
+8. Uzyskasz plik execel z rankingiem hoteli przygotowanym na podstawie ich aktualnych cen i ocen.
 
 Pobrane dane nadają się do dalszych analiz.
 -----------------------------------------------
-NOWOŚĆ W WERSJI 2.0
-Po stworzeniu bazy nazw hoteli oraz ich aktualnych cen w portalu Wakacje.pl, bot przystępuje do dalszego, niezależnego działania.
-Wyszukuje nazwy hoteli ze stworzonej bazy, w celu zapisaniach ich średniej oceny w Google. 
-Działa dobrze dla większości hoteli o unikalnej nazwie, które wyświetlają się poprawnie w Google jako obiekty tego typu.
-UWAGA! Wchodzi testowo na Google i daje 60 sekund na ręczne rozwiązanie ewentualnej blokady captcha!
+NOWOŚĆ W WERSJI 3.0
+- plik exe kompatybilny z Windows,
+- graficzny interface użytkownika,
+- brak konieczność zmieniania kodu Python oraz instalowania tego środowiska,
+- tworzenie rankingu hoteli na sumy punktów przyznanych za cenę i ocenę.
 
-Jeśli chcesz rozwijać narzędzie, proszę bardzo. 
+Jeśli chcesz rozwijać narzędzie? Proszę bardzo. 
 Stworzyłem je na własny użytek i udostępniam za darmo.

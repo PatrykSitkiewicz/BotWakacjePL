@@ -8,7 +8,7 @@ Instrukcja krok po kroku:
 ZANIM ZACZNIESZ:
 1. Jeśli nie posiadasz przeglądarki Google Chrome, pobierz i zanstaluj ją: https://www.google.com/intl/pl_pl/chrome/
 2. Pobierz i zainstaluj ChromeDrive dokładnie tej samej wersji, co Twoja Google Chrome https://googlechromelabs.github.io/chrome-for-testing/
-4. Pobierz z nieniejszego repozytorium BotWakacjePL.exe i uruchom go na swoim Windowsie. 
+4. Pobierz z nieniejszego repozytorium BotWakacjePL.exe i uruchom go na swoim Windowsie: https://github.com/PatrykSitkiewicz/BotWakacjePL/releases/download/3.0/BotWakacjePL.3.exe
 5. Postępuj zgodnie z instrukcją w programie. 
 
 USTAWIAMY BOTA
